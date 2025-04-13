@@ -23,7 +23,7 @@ Each customer can reserve a number of rooms. The customer can pay the bill in di
 6. **Last_visited**: The date when the customer last visited.
 
 **Reservation**
-1. Reservation_id**: A unique identifier for the reservation.
+1. **Reservation_id**: A unique identifier for the reservation.
 2. **Customer_id**: The identifier for the customer who made the reservation.
 3. **Expected_checkin_date**: The date when the customer is expected to check in.
 4. **Expected_checkout_date**: The date when the customer is expected to check out.
