@@ -72,3 +72,40 @@ Each customer can reserve a number of rooms. The customer can pay the bill in di
 4. Room_available: The room availability is specified.
 5. Description: The description of the room is specified.
 6. Smoking: Smoking is allowed in the room.
+
+# Room_type: The types of rooms that we can define are stored in this table. 
+1. Room_type_id: Room type ID:
+2. Room_type: Room type name.
+3. Description: Description related to the room type.
+4. Room_rate: Room type rating. 
+5. Num_beds: Number of beds related to the room type. 
+
+# Hotel: Information related to branches is stored in this table.
+1. Hotel_id: Hotel branch ID 
+2. Hotel_name: Branch name
+3. Hotel_type_id: hotel_type Branch type ID related to the table 
+4. Location: hotel branch address 
+5. Manager_id: employee branch manager ID related to the table
+
+# Types of hotels are stored in this table: Hotel Type ●
+1. Hotel_type_id: hotel type ID 
+2. Hotel_type: hotel type name 
+3. Stars: sar rating for the hotel type 
+
+# Employee: Information related to employees of all branches is stored in this table.
+1. Employee_id: employee ID 
+2. Employee_name: employee name 
+3. PhoneEmployee: phone number 
+4. EmailEmployee email address: 
+5. Supervisor_id Employee supervisor ID(This column can be empty for an employee) 
+6. Role_id: role Employee role ID for the table 
+7. Permission_id: permission ID for the table permission
+
+# Role: Employee role types are stored in this table.
+1. Role_id: role ID 
+2. Role_name: role name
+3. Role_desc: role description
+
+# Employee permission types:Permission ●
+1. Permission_id: permission ID access level 
+2. Name: permission name
