@@ -9,7 +9,7 @@ Each customer can reserve a number of rooms. The customer can pay the bill in di
 2. Payment_type_id: A unique identifier for the payment type.
 3. Payment_amount: The amount of the payment made.
 4. Reservation_id: A unique identifier for the reservation associated with the payment.
-# Payment_type
+**Payment_type**
 1. Payment_type_id: A unique identifier for the payment type.
 2. Payment_type: The name of the payment type.
 3. Payment_type_desc: A description of the payment type.
@@ -87,7 +87,7 @@ Each customer can reserve a number of rooms. The customer can pay the bill in di
 4. Location: hotel branch address 
 5. Manager_id: employee branch manager ID related to the table
 
-# Types of hotels are stored in this table: Hotel Type ●
+# Hotel Type: Types of hotels are stored in this table.
 1. Hotel_type_id: hotel type ID 
 2. Hotel_type: hotel type name 
 3. Stars: sar rating for the hotel type 
